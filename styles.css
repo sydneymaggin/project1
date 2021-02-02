@@ -1,0 +1,116 @@
+/* CSS files add styling rules to your content */
+html {
+  background-color:black;
+  
+}
+
+body {
+  font-family: monospace;
+  margin: 2em;
+
+}
+
+h1 {
+  font-size: 60px;
+    display: flex;
+  justify-content: center;
+  color: green;
+}
+
+h2 {
+  font-size: 25px;
+    display: flex;
+  justify-content: center;
+  color: green;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 20px;
+    display: flex;
+  justify-content: center;
+  color: #54f542;
+  text-align: center;
+}
+
+
+.pill {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+
+
+    .leftpill {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: 0; 
+    position: relative;
+    left: 75px;
+    
+}
+    
+
+  .rightpill {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-left: 0;
+    position: relative;
+    left: -75px;
+    top: -100px; 
+    
+    
+
+    
+  
+}
+
+img {
+  width:600px;
+  height: auto;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+  font-style: italic;
+  text-decoration: none;
+}
+
+
+.container {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+img {
+  max-width: 1000px;
+}
+
+.spotify{
+  position: relative;
+}
+
+.hat {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
